@@ -1,0 +1,55 @@
+.section-dashboard h1 {
+  margin: 40px;
+  margin-top: 30px;
+}
+
+.section-dashboard .card-body {
+  padding: 25px;
+  margin-top: -11px;
+  text-align: center;
+}
+
+.section-dashboard .card-body:hover {
+  transition: all 0.2s esea-in-out;
+  cursor: pointer;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn1 {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 21px;
+}
+
+.img-cards {
+  height: 300px;
+}
+
+.colm {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.cards {
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.cards :hover {
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+  z-index: 0.9;
+  cursor: pointer;
+}

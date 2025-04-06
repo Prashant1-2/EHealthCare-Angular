@@ -1,0 +1,129 @@
+<div>
+    <app-header></app-header>
+</div>
+<section class="section-dashboard" id="card">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Dashboard</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Profile_page.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Personal Profile</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn-1" routerLink="/personal-details">
+                Visit
+              </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Appointment-Details.jpg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Appointment Details</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/appointment-details">
+                Visit
+              </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Available_Facilities.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Available Facilities</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/doctor-facilities" [disabled]="!validateButton">
+                Doctors
+              </button>
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/test-facilities" [disabled]="!validateButton">
+                Tests
+              </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Book_appointment.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Book Appointment</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/inpatient-form">
+                In-Patient
+              </button>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/outpatient-form">
+                Out-Patient
+              </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Add-ins.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Add Records</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/doctorsupdate" [disabled]="!validateButton">
+                Doctors
+              </button>
+
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/roomsupdate" [disabled]="!validateButton">
+                Rooms
+              </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/transaction.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Transaction Records</h4>
+                        <button type="button" class="btn btn-outline-primary" routerLink="/transaction-records" [disabled]="!validateButton">Visit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Report_Generation.jpeg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Test Report</h4>
+                        <button type="button" class="btn btn-outline-primary" routerLink="/test-records" [disabled]="!validateButton">Visit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm col-md-3 col-lg-3 offset-lg-0">
+                <div class="cards">
+                    <img class="img-cards" src="../../../assets/Images/Feedback.jpg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title">Feedback FAQs</h4>
+
+                        <button type="button" class="btn btn-outline-primary btn1" routerLink="/feedback">
+                Visit
+              </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
