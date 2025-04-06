@@ -12,7 +12,7 @@ export class DashboardComponent implements OnInit {
   userinit: string = '';
   validateButton: boolean = false;
 
-
+  
   constructor(private route: ActivatedRoute, private router: Router, private personalemail: FetchingemailService,
     private authService: AuthService) { }
 

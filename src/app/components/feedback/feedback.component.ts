@@ -13,7 +13,5 @@ export class FeedbackComponent {
   returndash() {
 
     this.router.navigateByUrl('/dashboard')
-
-
   }
 }
