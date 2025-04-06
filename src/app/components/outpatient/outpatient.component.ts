@@ -63,9 +63,9 @@ export class OutpatientComponent implements OnInit {
     });
 
     const userData = {
-      name: 'Benjaminnn',
-      phoneNumber: '9999923456',
-      email: 'ben@carelon.com',
+      name: 'prashant',
+      phoneNumber: '9999923212',
+      email: 'prashant2001@gmail.com',
     };
 
     this.outpatientForm = this.fb.group({
