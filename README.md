@@ -9,9 +9,9 @@ EHealthcare_Project
 
 🛠️ Tech Stack Backend: Java, Spring Boot, REST APIs, Hibernate Frontend: Angular, Bootstrap Database: Oracle Architecture: Component-based UI, Layered backend (Controller → Service → Repository)
 
-This project is protected by copyright. Please refer to the LICENSE file for terms of use.
 ## License
-This project is for demonstration and educational purposes only.  
-Unauthorized use or redistribution is prohibited.  
+This project is licensed under a **custom proprietary license**.  
+It is publicly available for **viewing only** — reuse, modification, or redistribution is **not allowed**.  
+Please contact the author for permissions or collaborations.
 See [LICENSE](./LICENSE) for details.
 
